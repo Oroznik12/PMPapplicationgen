@@ -1,0 +1,22 @@
+{
+  "name": "pmp-experience-generator-backend",
+  "version": "1.0.0",
+  "description": "Backend API for PMP Application Experience Generator",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["pmp", "project-management", "api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "@ai-sdk/openai": "^1.0.0",
+    "ai": "^4.0.0",
+    "zod": "^3.22.4"
+  }
+}
