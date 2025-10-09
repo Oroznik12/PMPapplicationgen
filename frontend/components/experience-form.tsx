@@ -155,17 +155,7 @@ export function ExperienceForm() {
                   required
                 />
               </div>
-              <div className="space-y-2">
-                <Label htmlFor="totalHours">Total Hours</Label>
-                <Input
-                  id="totalHours"
-                  name="totalHours"
-                  value={formData.totalHours}
-                  onChange={handleChange}
-                  placeholder="e.g., 2000"
-                  required
-                />
-              </div>
+              
             </div>
 
             <div className="space-y-2">
